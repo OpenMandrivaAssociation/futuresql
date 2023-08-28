@@ -1,6 +1,6 @@
 Name: futuresql
 Version: 0.1
-Release: 1
+Release: 2
 Source0: https://invent.kde.org/libraries/futuresql/-/archive/%{version}/futuresql-%{version}.tar.bz2
 Summary: Non-blocking database framework for Qt
 URL: https://api.kde.org/futuresql/html/index.html
@@ -46,6 +46,7 @@ uses C++20 concepts, and requires a C++20 compiler.
 %package -n %{devname}
 Summary: Non-blocking database framework for Qt (Development files)
 Group: Development/C and C++
+Requires: %{libname} = %{EVRD}
 
 %description -n %{devname}
 A non-blocking database framework for Qt.

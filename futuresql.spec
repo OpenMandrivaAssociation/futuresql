@@ -1,7 +1,8 @@
 Name: futuresql
-Version: 0.1
-Release: 4
-Source0: https://invent.kde.org/libraries/futuresql/-/archive/%{version}/futuresql-%{version}.tar.bz2
+Version: 0.1.1
+Release: 1
+Source0: https://download.kde.org/stable/futuresql/futuresql-%{version}.tar.xz
+#Source0: https://invent.kde.org/libraries/futuresql/-/archive/%{version}/futuresql-%{version}.tar.bz2
 Summary: Non-blocking database framework for Qt
 URL: https://api.kde.org/futuresql/html/index.html
 License: LGPL-2.1 or LGPL-3.0
